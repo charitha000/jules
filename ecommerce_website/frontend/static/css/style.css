@@ -1,21 +1,24 @@
 /* Basic styling for the body */
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    /* margin: 0; Bootstrap handles this */
+    /* padding: 0; Bootstrap handles this */
+    background-color: #f4f4f4; /* Base background color */
+    color: #333; /* Base text color */
 }
 
-/* Header styling */
+/* Header styling - Handled by Bootstrap jumbotron class */
+/*
 header {
     background-color: #333;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
 }
+*/
 
-/* Navigation styling */
+/* Navigation styling - Handled by Bootstrap navbar classes */
+/*
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -38,29 +41,39 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #555;
 }
+*/
 
-/* Main content styling */
+/* Main content styling - Handled by Bootstrap container and utility classes */
+/*
 main {
     padding: 20px;
-    min-height: 300px; /* Minimum height for content visibility */
+    min-height: 300px; 
 }
+*/
 
-/* Footer styling */
+/* Footer styling - Handled by Bootstrap bg-dark, text-white, etc. classes */
+/*
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
     font-size: 0.9rem;
-    position: relative; /* Changed from fixed to relative for better flow */
+    position: relative; 
     bottom: 0;
     width: 100%;
 }
+*/
 
-/* Sections within main for better structure (optional, but good for home.html) */
+/* Sections within main for better structure - Handled by Bootstrap card, jumbotron, grid classes */
+/*
 #featured-products, #promotions {
     margin-bottom: 20px;
     padding: 15px;
     background-color: #fff;
     border: 1px solid #ddd;
 }
+*/
+
+/* Add any custom styles below that are not covered by Bootstrap 
+   or need to override Bootstrap specifically. */
